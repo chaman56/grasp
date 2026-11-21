@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Generated application output
+out/
+dist/
+build/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Design references
+design/
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
